@@ -1,0 +1,92 @@
+:root {
+    --blanco: #ffffff;
+    --oscuro: dimgray;
+    --secundario: darkred;
+    --indianred:  indianred;
+
+
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-snap-type: y mandatory;
+}
+
+body{
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.abstract {
+    color: darkgray;
+}
+.textabstr {
+    color: darkslategrey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.img {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 5rem;
+}
+
+h1{
+    font-size: 3.8rem;
+    color: var(--secundario);
+    text-align: center;
+}
+h2{
+    font-size: 2rem;
+    text-align: left;
+}
+h3{
+    font-size: 1.8rem;
+}
+
+h2,h3 {
+    text-align: justify;
+}
+p{
+    padding: 2rem;
+    text-align: justify;
+}
+.listas {
+font-weight: bold;
+}
+
+.elementos {
+    font-weight: bold;
+    color: darkolivegreen;
+}
+.ventajas{
+    text-align: justify;
+    color: var(--indianred);
+}
+.desventajas{
+    text-align: justify;
+    color: var(--indianred);
+}
+
+.sombra {
+    -webkit-box-shadow: 1px 2px 11px -1px rgba(0,0,0,0.55);
+-moz-box-shadow: 1px 2px 11px -1px rgba(0,0,0,0.55);
+box-shadow: 1px 2px 11px -1px rgba(0,0,0,0.55);
+padding: 2rem;
+border-radius: 1.5rem;
+max-width: 110rem;
+margin-top: 0px;
+margin-right: auto;
+margin-bottom: 0px;
+margin-left: auto;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.footer {
+    text-align: center;
+    color: var(--oscuro);
+}
